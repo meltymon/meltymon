@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @meltymon
 - 👀 I’m interested in all kind of technology
-- 🌱 I’m currently learning mobile app devolopment
+- 🌱 I’m currently study mobile app devolopment
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me github,instagram,telegram,email
 
