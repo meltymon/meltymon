@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @meltymon
 - 👀 I’m interested in all kind of technology
 - 🌱 I’m currently study mobile app devolopment
-- 💞️ I’m looking to collaborate on ...
+- 💞️ I’m looking to collaborate on like-minded people
 - 📫 How to reach me github,instagram,telegram,email
 
 <!---
