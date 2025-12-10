@@ -7,14 +7,14 @@
 
 <p align="left"> 
     <a href="https://github.com/ryo-ma/github-profile-trophy">
-        <img src="https://github-profile-trophy.vercel.app/?username=meltymon" alt="meltymon-trophy" />
+        <img src="https://github-profile-trophy.vercel.app/?username=meltymon" alt="meltymon-trophy-stats" />
     </a> 
 </p>
 
 <h3 align="left">💬 Verbinde dich mit mir:</h3>
 <p align="left">
-    <a href="https://twitter.com/meltymon" target="_blank">
-        <img src="https://img.shields.io/twitter/follow/meltymon?logo=twitter&style=for-the-badge&color=1DA1F2" alt="Twitter Follow" />
+    <a href="https://twitter.com/" target="_blank">
+        <img src="https://img.shields.io/badge/Twitter-Folgen-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Folge mir auf Twitter" />
     </a>
 </p>
 
@@ -23,7 +23,7 @@
 ### 🚀 Aktuelle Projekte & Fokus
 
 - **🛠️ System-Automatisierung & Modularität:** Ich arbeite an der Weiterentwicklung modularer, portabler Bash-Skripte für Linux (wie der **Restic Universal Backup Manager**), um komplexe Systemwartung zu vereinfachen.
-- **📱 Mobile App Entwicklung:** Ich lerne aktuell, wie man plattformübergreifende mobile Anwendungen entwickelt ).
+- **📱 Mobile App Entwicklung:** Ich lerne aktuell, wie man plattformübergreifende mobile Anwendungen entwickelt (Teil des **Syntax-Institut-Batch006**).
 
 - 🧑‍💻 **Alle meine Projekte sind verfügbar unter:** [https://github.com/meltymon](https://github.com/meltymon)
 - 📧 **So erreichen Sie mich:** [meltymon1982@gmail.com](mailto:meltymon1982@gmail.com)
@@ -60,7 +60,7 @@ Ich arbeite in verschiedenen Bereichen, von der klassischen Frontend-Entwicklung
     <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a> 
     <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> 
     <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a>
-    </p>
+</p>
 
 ---
 
