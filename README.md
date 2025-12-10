@@ -14,7 +14,7 @@
 <h3 align="left">💬 Verbinde dich mit mir:</h3>
 <p align="left">
     <a href="https://twitter.com/meltymon" target="_blank">
-        <img src="https://img.shields.io/twitter/follow/dein_twitter_handle?logo=twitter&style=for-the-badge&color=1DA1F2" alt="Twitter Follow" />
+        <img src="https://img.shields.io/twitter/follow/meltymon?logo=twitter&style=for-the-badge&color=1DA1F2" alt="Twitter Follow" />
     </a>
 </p>
 
