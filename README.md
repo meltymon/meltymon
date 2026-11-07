@@ -104,6 +104,9 @@ Ein System ist für mich nicht fertig, nur weil es auf dem eigenen Rechner funkt
 - GitHub: [@meltymon](https://github.com/meltymon)
 - Website: [meltymon.org](https://meltymon.org)
 - E-Mail: [sysadmin@meltymon.org](mailto:sysadmin@meltymon.org)
+- Discord: [Direktnachricht / Profil](https://discord.com/users/918530788113387630)
+- Facebook: [Facebook-Profil](https://www.facebook.com/profile.php?id=61590608950226)
+- Instagram: [@meltymon](https://www.instagram.com/meltymon/)
 
 ---
 
@@ -201,3 +204,6 @@ A system is not finished simply because it works on the developer's machine. Ins
 - GitHub: [@meltymon](https://github.com/meltymon)
 - Website: [meltymon.org](https://meltymon.org)
 - Email: [sysadmin@meltymon.org](mailto:sysadmin@meltymon.org)
+- Discord: [Direct message / profile](https://discord.com/users/918530788113387630)
+- Facebook: [Facebook profile](https://www.facebook.com/profile.php?id=61590608950226)
+- Instagram: [@meltymon](https://www.instagram.com/meltymon/)
