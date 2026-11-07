@@ -89,15 +89,15 @@ Linux · CachyOS · Proxmox VE · Ceph · Docker · Docker Compose · Ollama · 
 
 ## Engineering Philosophy
 
-- Funktionalität vor unnötiger Komplexität
-- Effizienz und nachvollziehbare Architektur
-- Sicherheit und Wiederherstellbarkeit
-- Redundanz und Fehlerbehandlung
-- Modulare und wartbare Software
-- Ausführliche Dokumentation
+- Zuverlässigkeit vor unnötiger Komplexität
+- Security by Design und sichere Systemarchitektur
+- Automatisierung statt wiederkehrender manueller Prozesse
+- Redundanz, Ausfallsicherheit und Wiederherstellbarkeit
+- Modulare, wartbare und nachvollziehbare Architektur
 - Reproduzierbare Tests und transparente Reviews
+- Umfassende technische Dokumentation
 
-Ein System ist für mich nicht fertig, nur weil es auf dem eigenen Rechner funktioniert. Installation, Wartung, Fehlerbehandlung und Wiederherstellung gehören genauso zum Engineering wie die eigentliche Implementierung.
+Ein System ist für mich nicht fertig, nur weil es auf dem eigenen Rechner funktioniert. Installation, Wartung, Fehlerbehandlung, Sicherheit und Wiederherstellung gehören genauso zum Engineering wie die eigentliche Implementierung.
 
 ## Kontakt
 
@@ -186,15 +186,15 @@ Linux · CachyOS · Proxmox VE · Ceph · Docker · Docker Compose · Ollama · 
 
 ## Engineering Philosophy
 
-- Functionality over unnecessary complexity
-- Efficiency and understandable architecture
-- Security and recoverability
-- Redundancy and fault handling
-- Modular and maintainable software
-- Comprehensive documentation
-- Reproducible tests and transparent reviews
+- Reliability over unnecessary complexity
+- Security by design and secure system architecture
+- Automation over repetitive manual processes
+- Redundancy, resilience and recoverability
+- Modular, maintainable and transparent architecture
+- Reproducible testing and transparent reviews
+- Comprehensive technical documentation
 
-A system is not finished simply because it works on the developer's machine. Installation, maintenance, error handling and recovery are just as important as implementation.
+A system is not finished simply because it works on the developer's machine. Installation, maintenance, error handling, security and recovery are just as important as implementation.
 
 ## Contact
 
