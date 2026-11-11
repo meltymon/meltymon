@@ -1,0 +1,6 @@
+# MELTYMON Custom Blocklist
+# https://github.com/meltymon/meltymon/tree/main/pihole
+#
+# Deliberately starts empty.
+# Add only reviewed domains with a documented reason.
+# One domain per line; comments start with #.
