@@ -22,7 +22,7 @@ DOMAIN_RE = re.compile(
     r"(?=.{1,253}$)(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?[.])+[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?$",
     re.IGNORECASE,
 )
-ADBLOCK_RE = re.compile(r"^\\|\\|([a-z0-9.-]+)\\^", re.IGNORECASE)
+ADBLOCK_RE = re.compile("^" + re.escape("||") + r"([a-z0-9.-]+)" + re.escape("^"), re.IGNORECASE)
 HOSTS_IPS = {"0.0.0.0", "127.0.0.1", "::1", "::"}
 LOCAL_NAMES = {"localhost", "local", "lan", "home", "home.arpa", "invalid", "test", "example"}
 
