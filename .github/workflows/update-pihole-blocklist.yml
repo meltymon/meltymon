@@ -1,0 +1,73 @@
+name: Update Pi-hole custom blocklist
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Refresh Phishunt domains
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import re
+          import urllib.request
+          from pathlib import Path
+
+          source = "https://phishunt.io/blocklist/domains.txt"
+          request = urllib.request.Request(
+              source, headers={"User-Agent": "MELTYMON-Pi-hole-Blocklist/1.0"}
+          )
+          with urllib.request.urlopen(request, timeout=30) as response:
+              raw = response.read().decode("utf-8", errors="replace")
+
+          domain_re = re.compile(
+              r"^(?=.{1,253}$)(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\\.)+[a-z]{2,63}$",
+              re.IGNORECASE,
+          )
+          domains = set()
+          for line in raw.splitlines():
+              value = line.strip().lower()
+              if not value or value.startswith("#"):
+                  continue
+              fields = value.split()
+              if len(fields) > 1 and fields[0] in {"0.0.0.0", "127.0.0.1", "::1"}:
+                  value = fields[1]
+              value = value.rstrip(".")
+              if domain_re.fullmatch(value):
+                  domains.add(value)
+
+          if not domains:
+              raise SystemExit("Feed returned no valid domains; refusing to erase the list.")
+
+          header = [
+              "# MELTYMON Custom Blocklist",
+              "# Purpose: actively reported phishing domains",
+              "# Source: Phishunt.io community phishing feed (CC0 1.0)",
+              "# Source URL: https://phishunt.io/blocklist/domains.txt",
+              "# Mirrored and normalized by the MELTYMON GitHub Actions workflow.",
+              "# Do not add broad hosting/provider domains; review false-positive risk.",
+              "",
+          ]
+          output = "\\n".join(header + sorted(domains)) + "\\n"
+          Path("pihole/custom-blocklist.txt").write_text(output, encoding="utf-8")
+          print(f"Published {len(domains)} unique domains.")
+          PY
+      - name: Commit changes
+        run: |
+          if git diff --quiet -- pihole/custom-blocklist.txt; then
+            echo "Blocklist unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add pihole/custom-blocklist.txt
+          git commit -m "Refresh Pi-hole phishing blocklist"
+          git push
